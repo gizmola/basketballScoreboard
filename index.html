@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="board-title-home">HOME</h3>
+                <div id="home_score" class="home-score">0</div>
+                <div class="container">
+                    <div data-team="home" data-add="1" class="add-points-btn">+1</div>
+                    <div data-team="home" data-add="2" class="add-points-btn">+2</div>
+                    <div data-team="home" data-add="3" class="add-points-btn">+3</div>
+                </div>
+            </div>
+            <div>
+                <h3 class="board-title-home">GUEST</h3>
+                <div id="guest_score" class="home-score">0</div>
+                <div class="container">
+                    <div data-team="guest" data-add="1" class="add-points-btn">+1</div>
+                    <div data-team="guest" data-add="2" class="add-points-btn">+2</div>
+                    <div data-team="guest" data-add="3" class="add-points-btn">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="game_status" class="board-title-home"></div>
+        </div>
+        <div class="container-bottom">
+            <div id="end_game_btn" class="bottom-btn">End Game</div>
+            <div id="game_log_btn" class="bottom-btn">Game Log</div>
+            <div id="reset_btn" class="bottom-btn">Reset</div>
+        </div>
+        <div id="game_log" class="log-container">
+            <table id="log_table" class="log-table">
+                <thead>
+                    <tr><th>Play</th><th>Team</th><th>Points</th></tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

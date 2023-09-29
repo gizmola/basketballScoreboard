@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src:  url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.board-title-home {
+    color: #eeeeee;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.home-score {
+    background: #080001;
+    color: #F94F6D;
+    font-family: "Cursed Timer";
+    font-size: 80px;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-points-btn {
+    font-family: "Cursed Timer";
+    color: #9AABD8;
+    padding: 10px;
+    border-radius: 4px;
+    border: #9AABD8 1px solid;
+}
+
+.add-points-btn:hover {
+    color: darkCyan;
+    border: #afbbdc 1px solid;
+}
+
+.bottom-btn {
+    background: #9AABD8;
+    margin: 10px 20px;
+    padding: 8px 20px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.bottom-btn:hover {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: auto;
+}
+
+.container-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.log-container {
+    display: flex;
+    justify-content: center;
+}
+
+.log-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.log-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.log-table th,
+.log-table td {
+    padding: 12px 15px;
+}
+
+.log-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.log-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.log-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
