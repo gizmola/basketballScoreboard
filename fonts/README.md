@@ -2,11 +2,12 @@
 This is an implementation of the Basketball Scoreboard independent project that is part of Scrimba's interactive website course.
 
 - The primary goal of the project is to implement to user interface specified in the project Figma
+- Project uses HTML,CSS,Javascript
 
 ## The basic functionality of the system is:
 
 - Home/Guest(away) scores
-- Buttons to increment by 1,2 or 3 reflecting basketball scoring
+- Buttons to increment by 1, 2 or 3 reflecting basketball scoring
 
 ## Additional Features added
 
